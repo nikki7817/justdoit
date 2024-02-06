@@ -1,0 +1,95 @@
+* {
+    font-family:  system-ui,  Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+  }
+
+  .main_heading {
+    font-size: 3.2em;
+    line-height: 1.1;
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  .main .task{
+    text-align: center;
+    word-wrap: break-word;
+  
+  }
+  
+  .main input{
+   padding: .7rem 1.5rem;
+   font-size: 1.2rem;
+   border-radius: 25px;
+   border: 1px solid rgba(255, 255, 255, 0.8);
+   background: rgba(255, 255, 255, 0.1);
+  }
+
+  .addButton{
+    border: none;
+    outline: nope;
+    padding: 16px 50px;
+    background: #ff5945;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+  }
+
+  ul li{
+
+    list-style: none;
+    font-size: 22px;
+    cursor: pointer;
+    user-select: none;
+    font-weight: bold;
+    text-align: start;
+   
+    word-wrap: break-word !important;
+
+  }
+
+  ul li:hover{
+    cursor: pointer;
+
+  }
+
+  .main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #list-container{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border-radius: 20px;
+  }
+
+  ul li span{
+    float: right;
+    color: rgb(255, 255, 255);
+    line-height: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 2px;
+    background-color: #ff5945;
+  }
+
+  ul li span:hover{
+    background: #803e80;
+  }
+
+ul li input{
+    float: right;
+    height: 20px;
+    width: 20px;
+    margin-left: 1rem;
+
+}
