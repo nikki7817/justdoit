@@ -5,6 +5,9 @@ const list_container = document.getElementById("list-container");
 function addTask() {
     if (user_Input.value === '') {
         alert("You must enter a task!!!");
+        }
+     else if(user_Input.value.length>20){
+        alert("Task too long")
     } else {
         let li = document.createElement("li");
         li.innerHTML = user_Input.value;
