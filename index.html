@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images//tab_icon.png" type="image/png">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>Just Do It !!!</title>
+</head>
+
+<body>
+    <div style="display: flex; justify-content: space-between;">
+        <h1 id="displayDate"></h1>
+        <h1 id="displayTime"></h1>
+    </div>
+
+
+    <h1 class="main_heading">Just Do It !!!</h1>
+    <div class="main">
+
+
+
+
+        <!-- Section to Add Task -->
+        <div class='task'>
+            <input type="text" placeholder='Enter Task' class="input" id="userInput" />
+            <button class="addButton" onclick="addTask()">Add</button>
+
+            <!-- Added Tasks -->
+
+            <div class="addedtasks">
+                <ul id="list-container">
+
+
+                </ul>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
